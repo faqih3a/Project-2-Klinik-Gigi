@@ -1,0 +1,62 @@
+
+.search-box{
+    padding: 8px 20px;
+    border-radius: 35px;
+}
+.search-box .search-icon{
+    font-size: 1.18rem;
+}
+.search-box .search-input{
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+.search-input .input{
+    outline: none;
+    border: none;
+    background-color: unset;
+    padding: 8px;
+    font-weight: bold;
+}
+.search-box:hover .search-input{
+    width: 200px;
+    margin-left: 8px;
+}
+aside a{
+    text-decoration: none;
+}
+h5{
+    color: #7B7671;
+}
+.content-awal{
+    border: 1px solid #0D6EFD;
+    margin: 10px;
+}
+.paragraf{
+    text-align: justify;
+
+}
+.layanan{
+    box-sizing: border-box;
+}
+.layanan-dua img{
+    width: 100px;
+}
+.paragraf-2{
+    letter-spacing: .1px;
+    text-align: justify;
+}
+.detail{
+    width: fit-content;
+    height: auto;
+}
+.detail img{
+    width: 100px;
+}
+.aku{
+    border: 3px solid black;
+}
+.dokter{
+    border: 1px solid #0D6EFD;
+    margin: 10px;
+}
