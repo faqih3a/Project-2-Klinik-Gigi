@@ -1,0 +1,40 @@
+
+.search-box{
+    padding: 8px 20px;
+    border-radius: 35px;
+}
+.search-box .search-icon{
+    font-size: 1.18rem;
+    margin-right: 20 px;
+}
+.search-box .search-input{
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+.search-input .input{
+    outline: none;
+    border: none;
+    background-color: unset;
+    padding: 8px;
+    font-weight: bold;
+}
+.search-box:hover .search-input{
+    width: 200px;
+    margin-left: 8px;
+}
+.list, a{
+    text-align: start;
+    text-decoration: none;
+}
+.tutup{
+    margin-right: 45px;
+    margin-top: 3px;
+    color: #0A7CD8;
+    cursor: pointer;
+}
+.list-4{
+    list-style-type: '✔';
+    cursor: pointer;
+    position: relative;
+}
