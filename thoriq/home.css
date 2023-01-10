@@ -1,10 +1,14 @@
-
+body{
+    height: 1000px !important;
+    width: 100%;
+}
 .search-box{
     padding: 8px 20px;
     border-radius: 35px;
 }
 .search-box .search-icon{
     font-size: 1.18rem;
+    cursor: pointer;
 }
 .search-box .search-input{
     transition: .5s;
@@ -56,7 +60,7 @@ h5{
 .aku{
     border: 3px solid black;
 }
-.dokter{
+/* .dokter{
     border: 1px solid #0D6EFD;
     margin: 10px;
-}
+} */
