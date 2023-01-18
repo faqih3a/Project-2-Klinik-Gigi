@@ -4,6 +4,7 @@ body{
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+    margin-bottom: 1000px;
 }
 .slide{
     max-width: auto;
@@ -98,7 +99,6 @@ h5{
 .content-awal{
     border: 1px solid #0D6EFD;
     margin: 10px;
-    /* max-width: fit-content; */
     height: fit-content;
 }
 .paragraf{
@@ -137,4 +137,91 @@ h5{
     margin-bottom: 15px;
     outline: none;
     border: 3px solid #044ebd;
+}
+.kontener{
+    margin: 20px;
+}
+.garis-history{
+    height: 1300px;
+    width: 50%;
+    background-color: #044ebd;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 90px;
+}
+.garis-history div:nth-child(1) {
+    transform: rotate(0deg);
+    border-radius: 3px;
+}
+.garis-history div:nth-child(2) {
+    transform: rotate(90deg);
+    transform-origin: 0 100%;  
+    margin-top: -20px;
+    border-radius: 3px;
+    
+}
+.garis-history div:nth-child(3) {
+    transform: rotate(0deg);
+    margin-top: 290px;
+    border-radius: 3px;
+}
+.garis-history div:nth-child(4) {
+    transform: rotate(90deg);
+    margin-left: 286px;
+    margin-top: 130px;
+}
+.garis-history div:nth-child(5) {
+    transform: rotate(0deg);
+    border-radius: 3px;
+    margin-top: 129px;
+
+}
+.garis-history div:nth-child(6) {
+    transform: rotate(90deg);
+    transform-origin: 0 100%;
+    margin-top: -20px;
+}
+.garis-history div:nth-child(7) {
+    transform: rotate(0deg);
+    margin-top: 290px;
+    border-radius: 3px;
+
+}
+.garis-history div:nth-child(8) {
+    transform: rotate(-90deg);
+    transform-origin: 100% 0;
+    margin-top: -14px;
+    margin-left: -15px;
+    border-radius: 3px;
+}
+@media(max-width: 750px) {
+    .content-awal{
+        width: 100%;
+    }
+    .container-fluid .form{
+        display: block;
+        width: 50%;
+        margin: auto !important;
+    }
+
+    nav .search-box{
+        display: none !important;
+    }
+    .navbar .container{
+        display: flex;
+        justify-content: space-between !important;
+        padding-left: 120px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .kontener{
+        display: flex !important;
+        margin: auto !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kontener .card{
+        margin: 20px 0;
+    }
 }
