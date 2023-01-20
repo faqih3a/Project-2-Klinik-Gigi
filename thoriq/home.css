@@ -4,7 +4,7 @@ body{
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-    margin-bottom: 1000px;
+    overflow-x: hidden;
 }
 .slide{
     max-width: auto;
@@ -193,6 +193,14 @@ h5{
     margin-top: -14px;
     margin-left: -15px;
     border-radius: 3px;
+}
+nav .navbar-nav .kedua a:hover{
+    color: red !important;
+    
+}
+
+.bag-nav .navbar-nav .lis-4 a:hover{
+    color: red !important;
 }
 @media(max-width: 750px) {
     .content-awal{
