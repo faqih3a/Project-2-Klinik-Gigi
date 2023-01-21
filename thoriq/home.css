@@ -4,7 +4,6 @@ body{
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-    overflow-x: hidden;
 }
 .slide{
     max-width: auto;
@@ -199,6 +198,10 @@ nav .navbar-nav .kedua a:hover{
     
 }
 
+
+.container-konten {
+    margin-left: 300px;
+}
 .bag-nav .navbar-nav .lis-4 a:hover{
     color: red !important;
 }
@@ -232,4 +235,9 @@ nav .navbar-nav .kedua a:hover{
     .kontener .card{
         margin: 20px 0;
     }
+
+
+
+    
+
 }
